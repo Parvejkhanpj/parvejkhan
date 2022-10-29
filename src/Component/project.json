@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Blood Buddy",
+    "live": "blood-budy.vercel.app/",
+    "github": "https://github.com/Parvejkhanpj/Blood_Buddy",
+    "description": "this app help to find blood donor near by your location.",
+    "image": "https://i.ibb.co/TPNhj1M/bloodbuddy.png",
+    "techStack": "HTML,CSS,JS, REACT, TAIlWIND"
+  },
+  {
+    "id": 2,
+    "name": "SpecKart UI",
+    "live": "specscart.vercel.app",
+    "github": "https://github.com/Parvejkhanpj/specscart",
+    "description": "UI of Uk base Specs E-commarce Website.",
+    "image": "https://i.ibb.co/JvZCBqD/speckart.png",
+    "techStack": "HTML, REACT, TAIlWIND"
+  },
+  {
+    "id": 3,
+    "name": "Quiz App",
+    "live": "quizapp-tawny.vercel.app",
+    "github": "https://github.com/Parvejkhanpj/react_quiz_app",
+    "description": "A Score base quiź that help for survay",
+    "image": "https://i.ibb.co/5KdyMZz/quiz.png",
+    "techStack": "HTML, REACT, TAIlWIND"
+  }
+]
