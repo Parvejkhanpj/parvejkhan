@@ -7,14 +7,14 @@ const Navbar = () => {
     <div className="flex justify-between items-center p-1 py-3">
       <div className="flex items-center">
         <div className="center">
-          <BsList className="ml-2 text-xl lg:hidden" />
+          <BsList className="ml-2 text-xl hidden" />
         </div>
         <div
           className="left  text-[14px] p-2  
         bg-gradient-to-r from-[#00C0FD] to-[#E70FAA]
         inline-block text-transparent bg-clip-text "
         >
-          <h1>{`{ Parvej }`}</h1>
+          <h1 className="text-10">{`{ Parvej }`}</h1>
           <span className="block ml-1 ">khan</span>
         </div>
       </div>
@@ -53,7 +53,7 @@ const Navbar = () => {
         <a href="https://twitter.com/digitalparvej">
           <BsTwitter
             className="m-2 text-xl hover:scale-125 
-           rounded-full"
+           rounded-full hidden lg:block"
           />
         </a>
         <a href="https://api.whatsapp.com/send?phone=919783946464&text=thank%20you%20contact%20parvej%20khan%20they%20contact%20you%20as%20soon%20as%20possiable">

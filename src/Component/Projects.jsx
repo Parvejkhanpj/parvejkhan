@@ -12,12 +12,12 @@ const Projects = () => {
         Things I’ve built so far
       </p>
 
-      <div className="project grid grid-cols-1 lg:grid-cols-3 mb-100  lg:gap-2 gap-6  mx-8 lg:mx-10 my-5">
+      <div className="project grid grid-cols-1 lg:grid-cols-3 mb-100  lg:gap-2 gap-6  mr-[2rem] ml-[1rem] lg:mx-10 my-5">
         {data.map((element) => {
           return (
             <div
               key={element.id}
-              className="w-[350px] lg:w-[450px] border-0 shadow-lg shadow-[#363636]/50 rounded-lg bg-[#363636] h-[350px] lg:h-[380px]"
+              className="w-[300px] lg:w-[350px] border-0 shadow-lg shadow-[#363636]/50 rounded-lg bg-[#363636] h-[350px] lg:h-[380px] "
             >
               <img src={element.image} className="" />
 
@@ -25,7 +25,7 @@ const Projects = () => {
                 <h3 className=" text-[18px] pt-2 pl-2 font-[600] ">
                   {element.name}
                 </h3>
-                <p className="p-2 font-light text-[14px]">
+                <p className="p-2 font-light text-[16px]">
                   {element.description}
                 </p>
                 <p className="p-2 pt-0 font-light text-[12px]">
