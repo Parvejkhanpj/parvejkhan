@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="my-10 lg:flex lg:justify-around items-center py-10">
-      <div className="title leading-12 ">
+      <div className="title leading-12 ml-5 ">
         <h2 className=" text-[34px] lg:text-[52px] font-semibold text-center lg:text-left ">
           Hi 👋
           <br />

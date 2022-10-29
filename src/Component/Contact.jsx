@@ -7,7 +7,7 @@ const Contact = () => {
       <h2 className="tech lg:my-10 font-['Poppins'] font-bold  text-[#19190] text-[32px] lg:text-[48px] text-center font-bold ">
         Contact Me.
       </h2>
-      <div className="grid lg:grid-cols-3 grid-cols-1 gap-6 lg:gap-4 my-10  mx-10">
+      <div className="grid lg:grid-cols-3 grid-cols-1 gap-6 lg:gap-4 my-10  mx-10 ">
         <div
           className="phone lg:w-[350px] lg:w-[450px] bg-transparent h-[250px] flex
        flex-col justify-center items-center shadow shadow-[#E70FAA]/40 md:shadow-indigo-500/40"
