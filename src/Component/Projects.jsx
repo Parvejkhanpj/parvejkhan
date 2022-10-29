@@ -4,7 +4,7 @@ import data from "./project.json";
 console.log("data", data);
 const Projects = () => {
   return (
-    <div>
+    <div id="Project">
       <h2 className="tech lg:mt-10 font-['Poppins'] font-bold  text-[#19190] text-[32px] lg:text-[48px] text-center font-bold ">
         Projects
       </h2>
@@ -17,9 +17,9 @@ const Projects = () => {
           return (
             <div
               key={element.id}
-              className="w-[300px] lg:w-[350px] border-0 shadow-lg shadow-[#363636]/50 rounded-lg bg-[#363636] h-[350px] lg:h-[380px] "
+              className=" w-[350px] lg:w-[350px] border-0 shadow-lg shadow-[#363636]/50 rounded-lg bg-[#363636] h-[350px] lg:h-[350px] "
             >
-              <img src={element.image} className="" />
+              <img src={element.image} className="object-cover h-48 w-96 " />
 
               <div className="content mb-3 font-[ 'Poppins']">
                 <h3 className=" text-[18px] pt-2 pl-2 font-[600] ">

@@ -23,16 +23,16 @@ const Navbar = () => {
       <div className="hidden lg:block">
         <ul className="flex justify-around items-center">
           <li className="mx-5 text-[20px] hover:scale-125 hover:text-fuchsia-500 cursor-pointer">
-            About Me
+            <a href="#about">About Me</a>
           </li>
           <li className="mx-5 text-[20px] hover:scale-125 hover:text-fuchsia-500 cursor-pointer">
-            Tech
+            <a href="#skill">Skiils</a>
           </li>
           <li className="mx-5 text-[20px] hover:scale-125 hover:text-fuchsia-500 cursor-pointer">
-            Project
+            <a href="#Project">Project</a>
           </li>
           <li className="mx-5 text-[20px] hover:scale-125 hover:text-fuchsia-500 cursor-pointer">
-            Contact Me
+            <a href="#contact"> Contact Me</a>
           </li>
         </ul>
       </div>

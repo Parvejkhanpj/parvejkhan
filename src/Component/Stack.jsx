@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 const Stack = () => {
   return (
-    <div className="my-20 mx-auto">
+    <div id="skill" className="my-20 mx-auto">
       <h2 className="tech font-['Poppins'] font-bold  text-[#19190] text-[32px] lg:text-[48px] text-center font-bold ">
         My Tech Stack
       </h2>

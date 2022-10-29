@@ -4,11 +4,11 @@ const Hero = () => {
   return (
     <div className="my-10 lg:flex lg:justify-around items-center py-10">
       <div className="title leading-12 ml-5 ">
-        <h2 className=" text-[34px] lg:text-[52px] font-semibold text-center lg:text-left ">
+        <h2 className=" text-[30px] lg:text-[52px] font-semibold text-center lg:text-left ">
           Hi 👋
           <br />
           My Name is
-          <span className="bg-gradient-to-r from-[#13B0F5] to-[#E70FAA] inline-block text-transparent bg-clip-text mx-2">
+          <span className="inline  bg-gradient-to-r from-[#13B0F5] to-[#E70FAA] inline-block text-transparent bg-clip-text mx-2">
             Parvej khan
           </span>
           <br />I build things for web.

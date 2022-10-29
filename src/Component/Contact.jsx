@@ -3,7 +3,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import { FiMail, FiHome } from "react-icons/fi";
 const Contact = () => {
   return (
-    <>
+    <div id="contact">
       <h2 className="tech lg:my-10 font-['Poppins'] font-bold  text-[#19190] text-[32px] lg:text-[48px] text-center font-bold ">
         Contact Me.
       </h2>
@@ -45,7 +45,7 @@ const Contact = () => {
           </h3>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
