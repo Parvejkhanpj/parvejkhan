@@ -17,7 +17,7 @@ const Projects = () => {
           return (
             <div
               key={element.id}
-              className="w-[350px] border-0 shadow-lg shadow-[#363636]/50 rounded-lg bg-[#363636] h-[350px]"
+              className="w-[350px] lg:w-[450px] border-0 shadow-lg shadow-[#363636]/50 rounded-lg bg-[#363636] h-[350px] lg:h-[380px]"
             >
               <img src={element.image} className="" />
 
